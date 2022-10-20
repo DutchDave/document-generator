@@ -7,7 +7,7 @@ import org.apache.pulsar.client.api.PulsarClientException;
 import org.apache.pulsar.client.impl.schema.JSONSchema;
 
 public class PulsarConnector {
-    private static final String connectionUrl = "pulsar://localhost:6650";
+    private static final String connectionUrl = "pulsar://pulsar-sandbox-broker:6650";
     private static final String topicName = "persistent://public/default/document-topic";
 
     private final PulsarClient client;
